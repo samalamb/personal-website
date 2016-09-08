@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(220, 220, 220);
+}
+
+.alexa-main-section {
+    background-image: url(../assets/images/alexa-project.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    width: 100%;
+    min-height: 550px;
+    margin-top: -2rem;
+}
+
+.alexa-main-section .alexa-header {
+    margin-top: 0;
+    text-align: right;
+    padding-top: 15rem;
+    padding-right: 3.5rem;
+    font-family: 'Bungee Shade', cursive;
+    color: white;
+    letter-spacing: 0.75rem;
+    font-size: 3.5rem;
+}
+
+.content {
+    padding-bottom: 3rem;
+    color: rgb(50, 50, 50);
+}
+
+.content .title {
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+    padding-left: 3rem;
+    letter-spacing: 0.5rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.content .explanation {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    padding-left: 3rem;
+    padding-right: 4rem;
+    letter-spacing: 0.15rem;
+    line-height: 2.5rem;
+    margin: 0;
+    margin-bottom: 1rem;
+}
+
+@media (max-width: 1024px) {
+    .alexa-main-section {
+        min-height: 275px;
+    }
+    
+    .alexa-main-section .alexa-header {
+        margin-top: 0;
+        text-align: right;
+        padding-top: 9rem;
+        padding-right: 3rem;
+        font-family: 'Bungee Shade', cursive;
+        color: white;
+        letter-spacing: 0.75rem;
+        font-size: 2rem;
+    }
+    
+    .content .title {
+        font-size: 2rem;
+        letter-spacing: 0.25rem;
+        margin-bottom: 0.5rem;
+    }
+    
+    .content .explanation {
+        font-size: 1rem;
+        letter-spacing: 0.07rem;
+        line-height: 1.5rem;
+    }
+}
+
+@media (max-width: 640px) {
+    .alexa-main-section {
+        min-height: 275px;
+    }
+    
+    .alexa-main-section .alexa-header {
+        letter-spacing: 0.5rem;
+        font-size: 1.5rem;
+    }
+    
+    .content .title {
+        padding-left: 0rem;
+        font-size: 1.5rem;
+        letter-spacing: 0.15rem;
+        margin-bottom: 0.25rem;
+        text-align: center;
+    }
+    
+    .content .explanation {
+        font-size: 0.75rem;
+        letter-spacing: 0.07rem;
+        line-height: 1rem;
+        text-align: center;
+    }
+}
+

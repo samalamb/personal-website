@@ -1,0 +1,180 @@
+/*
+ *, *::before, *::after {
+     -moz-box-sizing: border-box;
+     -webkit-box-sizing: border-box;
+     box-sizing: border-box;
+ }
+*/
+
+body {
+    background-color: rgb(220, 220, 220);
+    width: 100%;
+}
+/*
+
+.navbar {
+    position: absolute;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 100%;
+    height: 50px;
+    color: white;
+    z-index: 1;
+}
+
+.navbar .links-container {
+    display: table;
+    float: right;
+    padding: 1rem;
+}
+
+.navbar .other-link-container {
+    display: table;
+    float: left;
+    padding: 1rem;
+}
+
+.navbar .home-link {
+    top: 1rem;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar .home-link:hover {
+    color: cadetblue;
+}
+*/
+/*
+
+.navbar .navbar-link {
+    display: table;
+    float: right;
+    padding-right: 1rem;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 0.05rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+
+.navbar .navbar-link:hover {
+    color: cadetblue;
+}
+*/
+
+.projects .project-link:hover {
+    text-shadow: -7px 3px black;
+}
+
+.projects {
+    margin-top: -3rem;
+}
+
+.project {
+    margin-top: -3rem;
+}
+
+.footer {
+    width: 100%;
+    background-color: cadetblue;
+    color: white;
+}
+
+.footer .left-side {
+    font-family: 'Bungee', cursive; 
+    background-color: rgb(50, 50, 50);
+    min-height: 200px;
+    width: 50%;
+    overflow: hidden;
+    float: left;
+}
+
+.footer .left-side .header {
+    padding-left: 2rem;
+    padding-top: 4rem;
+}
+
+.footer .right-side {
+    float: left;
+    background-color: cadetblue;
+    min-height: 200px;
+    width: 50%;
+}
+
+.footer .social {
+    margin-left: 2rem;
+}
+
+.footer .social .ion-social-github, 
+.footer .social .ion-social-linkedin,
+.footer .social .ion-social-rss {
+    font-size: 2.5rem;
+    padding-right: .5rem;
+    color: white;
+}
+
+.footer .right-side .header {
+    padding-left: 3rem;
+    padding-top: 2.5rem;
+    font-size: 1.5drem;
+    font-family: 'Bungee Shade', cursive;
+}
+
+@media (max-width: 640px) {
+    .footer {
+        width: 100%;
+        background-color: cadetblue;
+        color: white;
+    }
+
+    .footer .left-side {
+        background-color: rgb(50, 50, 50);
+        min-height: 200px;
+        width: 100%;
+        overflow: hidden;
+        float: left;
+    }
+
+    .footer .left-side .header {
+        font-family: 'Bungee', cursive; 
+        padding-left: 2rem;
+        padding-top: 4rem;
+        font-size: 1.5rem;
+    }
+
+    .footer .right-side {
+        float: left;
+        background-color: cadetblue;
+        min-height: 200px;
+        width: 100%;
+    }
+
+    .footer .social {
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+
+    .footer .social .ion-social-github, 
+    .footer .social .ion-social-linkedin,
+    .footer .social .ion-social-rss {
+        font-size: 2.5rem;
+        padding-right: .5rem;
+        color: white;
+    }
+
+    .footer .right-side .header {
+        padding-left: 3rem;
+        padding-top: 2.5rem;
+        font-size: 1.25rem;
+        font-family: 'Bungee Shade', cursive;
+    }
+}
+
+@media (max-width: 1024px) {
+    
+}
