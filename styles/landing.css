@@ -69,7 +69,7 @@ translateY -50%
     background-position: center center;
     background-size: cover;
     text-align: right;
-    margin-bottom: -2rem;
+    margin-bottom: -3rem;
 }
 
 .alexa .project-title {
@@ -109,6 +109,24 @@ translateY -50%
     font-family: 'Roboto', sans-serif;
     color: rgb(75, 75, 75);
     font-size: 2rem;
+}
+
+.footer .contact-email {
+    font-family: 'Bungee', cursive;
+    margin-top: 1rem;
+    margin-left: 3rem;
+    
+}
+
+.footer .email {
+    margin-left: 3rem;
+    font-family: 'Bungee Shade', cursive;
+    text-decoration: none;
+    color: white;
+}
+
+.footer .email:hover {
+    color: black;
 }
 
 @media (max-width: 1024px) {

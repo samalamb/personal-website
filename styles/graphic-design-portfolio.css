@@ -10,6 +10,7 @@
     margin-left: 7%;
 }
 
+/*
 #slides {
     position: relative;
     height: 500px;
@@ -51,12 +52,13 @@
 }
 
 .picture {
-    vertical-align: middle;
+    height: auto;
+    max-height: 500px;
+    width: 100%;
 }
 
 .showing {
     margin: 0 auto;
-    height: 100%;
     opacity: 1;
     z-index: 2;
 }
@@ -76,7 +78,17 @@
     margin-left: 1rem;
     font-size: 2rem;
 }
+*/
 
 .footer .left-side .header {
     font-family: 'Bungee', cursive;
+}
+
+.carousel-control.left, .carousel-control.right {
+    background-image: none;
+    background-color: black;
+}
+
+#myCarousel {
+    width: 100%;
 }

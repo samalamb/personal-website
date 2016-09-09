@@ -13,7 +13,7 @@
         <link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
         <link rel="stylesheet" type="text/css" href="styles/normalize.css">
         <link rel="stylesheet" type="text/css" href="styles/main.css" >
-        <link rel="stylesheet" type="text/css" href="styles/contact.css">
+        <link rel="stylesheet" type="text/css" href="styles/landing.css">
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
         <script src="scripts/noframework.waypoints.min.js"></script>
         <script type="text/javascript" src="scripts/landing.js"></script>
@@ -32,62 +32,22 @@
                     <ul class="dropdown-menu">
                         <li><a href="graphic-design-portfolio.html">Graphic Design</a></li>
                         <li><a href="photography-portfolio.html">Photography</a></li>
-                        <li><a href="web-design-portfolio.html">Web Design</a></li>
+                        <li><a href="web-design-portfolio.html">Web and Development</a></li>
                     </ul>
-                    <li><a href="contact.html">Contact Me</a></li>
                 </ul>
             </div>
         </nav>
 
-        <h1>Contact Me</h1>
         
-        <form id="contact-form" method="post" action="contact.php" role="form">
-            <div class="messages"></div>
-            <div class="controls">
-                <div class="row col-md-offset-1">
-                    <div class="col-md-5">
-                        <div class="form-group">
-                            <label for="form_name">Firstname *</label>
-                            <input id="form_name" type="text" name="name" class="form-control" placeholder="Please enter your first name" required="required" data-error="First name is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-5">
-                        <div class="form-group">
-                            <label for="form_lastname">Lastname *</label>
-                            <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Please enter your last name" required="required" data-error="First name is required.">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row col-md-offset-1">
-                    <div class="col-md-5">
-                        <div class="form-group">
-                            <label for="form_email">Email *</label>
-                            <input id="form_email" type="email" class="form-control" placeholder="Please enter your email address." required="required" data-error="Email is required">
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="row col-md-offset-1">
-                    <div class="col-md-10">
-                        <div class="form-group">
-                            <label for="form_message">Message *</label>
-                            <textarea id="form_message" type="email" class="form-control" placeholder="Please enter a message" rows="4" required="required" data-error="Message is required"></textarea>
-                            <div class="help-block with-errors"></div>
-                        </div>
-                    </div>
-                    
-                    <div class="col-md-12">
-                        <input type="submit" class="btn btn-success btn-send" value="Send Message">
-                    </div>
-                </div>
-            </div>
-        </form>
-        
+        <div class="projects">
+            <a href="bloccit.html" class="project-link"><section class="project bloccit">
+                <h1 class="project-title">Bloccit</h1>
+            </section></a>
+
+            <a href="alexa.html" class="project-link"><section class="project alexa">
+                <h1 class="project-title">Alexa Project</h1>
+            </section></a>
+        </div>
         
         <footer class="footer">
             <div class="left-side">
@@ -101,6 +61,8 @@
             
             <div class="right-side">
                 <h3 class="header">Samuel Dieck &copy;</h3>
+                <h4 class="contact-email">Email Me At:</h4>
+                <a class="email" href="mailto:sammyd5848@yahoo.com">sammyd5848@yahoo.com</a>
             </div>
         </footer>
         <script src="scripts/bootstrap.min.js"></script>
